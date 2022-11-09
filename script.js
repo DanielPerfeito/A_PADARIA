@@ -1,0 +1,2 @@
+
+alert('OLÁ, SEJA BEM VINDO(A)!' + '\n' + '\n' + 'Meu nome é Daniel Perfeito, eu sou o criador desse site e só estou passando para te dizer que esta é uma pagina ficticia, um projéto para a divulgação do meu trabalho como Desenvolvedor Web. Portanto, todos os meios de contatos e endereços de "A PADARIA" também são ficticios.' +  '\n' + '\n' + 'Se você gostou do meu trabalho e deseja entrar em contato comigo, acesse o site: https://danielperfeito.dev.br/' + '\n' + '\n' + 'Muito obrigado pela visita!');

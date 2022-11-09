@@ -1,0 +1,165 @@
+/*MEDIAS*/
+
+@media screen and (max-width: 1260px) {
+
+    .lojas{
+        margin: auto;
+        width: 1238px;
+    }
+
+    .loja1, .loja2, .loja3{
+        display: inline-block;
+        font-size: 1rem;
+        width: 250px;
+        height: 320px;
+        text-align: center;
+        font-weight: bolder;
+        border-radius:  15px;
+        margin: 20px 10px 0px;
+        overflow: hidden;
+        background-color: #FFE699;
+        padding: 30px;
+        box-shadow: 5px 7px#d29d2b;
+    }
+    
+}
+
+@media screen and (max-width: 820px) {
+
+    .cabeçalho {
+        height: 230px;
+    }
+
+    #logo {
+        width: 556px;
+        padding-top: 100px;
+    }
+
+    #slogan {
+        font-size: 2.2rem;
+    }
+
+    .galeria {
+        width: 90%;
+        gap: 7px;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+    #registro {
+        display: block;
+        margin: auto;
+        padding: 15px;
+    }
+
+    .encomenda {
+        display: block;
+        margin: auto;
+        float: none;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    .cabeçalho {
+        height: 230px;
+        border-bottom: solid 10px #d29d2b;
+    }
+
+    .barra-superior {
+        margin: auto;
+        background-color: black;
+        width: 300px;
+        height: 200px;
+        padding-top: 15px;
+        border-radius: 0px 0px 30px 30px;
+        position: static;
+    }
+
+    #sub-logo {
+        display: block;
+        width: 260px;
+        margin: auto
+    }
+
+    .menu {
+        float: none;
+    }
+
+    .item-menu {
+        display: block;
+        margin: 0 auto 10px;
+        width: 130px;
+        border: solid 2px #ffffff;
+        border-radius: 5px;
+        padding: 4px;
+        text-align: center;
+    }
+
+    a:hover {
+
+        color: black;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #slogan {
+        font-size: 1.8rem;
+    }
+
+    form{
+        width: 300px;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .galeria {
+        margin: auto;
+        display: block;
+    }
+
+    .itemGaleria {
+        margin: auto;
+        width: 90%;
+        overflow: hidden;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+
+    #item01 {
+        border-radius: 20px 20px 5px 5px;
+    }
+
+    #item07 {
+        border-radius: 5px;
+    }
+
+    #item09 {
+        border-radius: 5px 5px 20px 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .barra-superior {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .loja{
+        margin: 20px 0px 0px;
+        padding: 20px;
+    }
+
+    form{
+        width: 250px;
+        text-align: center;
+        padding: 15px;
+    }
+}

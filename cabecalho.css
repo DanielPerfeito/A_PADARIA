@@ -1,0 +1,87 @@
+/*CABEÇALHO - GERAL*/
+
+.cabeçalho{
+    margin: auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: 350px;
+    border-bottom: solid 20px #d29d2b;
+}
+
+.barra-superior{
+    background-color: black;
+    min-height: 50px;
+    max-height: 500px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    padding: 0;
+}
+
+#sub-logo{
+    display: inline-block;
+    width: 150px;
+    margin: 14px 0px 0px 25px;
+}
+
+.menu{
+    padding-top: 12px;
+    float: right;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.item-menu{
+    margin-right: 15px;
+    color: white;
+    font-size: 1.2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.item-menu:hover{
+    color: #d29d2b;
+    transition: 0.4s;
+}
+
+#logo{
+    display: block;
+    margin:  auto;
+    padding-top: 140px;
+}
+
+
+/*PAGINA: iNICIO*/
+
+#fundo1{
+    background-image: url(ATIVOS/backgroud-capa04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*PAGINA: QUEM SOMOS*/
+
+#fundo2{
+    background-image: url(ATIVOS/backgroud-capa01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*PAGINA: Lojas*/
+
+#fundo3{
+    background-image: url(ATIVOS/backgroud-capa02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*PAGINA: Fale Conosco*/
+
+#fundo4{
+    background-image: url(ATIVOS/backgroud-capa03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

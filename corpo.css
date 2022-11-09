@@ -1,0 +1,303 @@
+/*PRINCIPAL -- PAGINA INICIO*/
+
+#slogan, h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #d29d2b;
+    text-shadow: 2px 2px 2px #FFE699;
+}
+
+
+/*====================================================GALERIA====================================================*/
+
+.principal {
+    width: 100%;
+    margin: auto;
+}
+
+.galeria {
+    margin: auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    gap: 10px;
+}
+
+.imgGaleria {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.itemGaleria {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#item01 {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 3;
+    border-radius: 20px 5px 5px 5px;
+}
+
+#item02 {
+    grid-column: 4 / span 3;
+    grid-row: 1 / span 2;
+}
+
+#item03 {
+    grid-column: 7 / span 3;
+    grid-row: 1 / span 3;
+    border-radius: 5px 20px 5px 5px;
+}
+
+#item04 {
+    grid-column: 1 / span 3;
+    grid-row: 4 / span 3;
+}
+
+#item05 {
+    grid-column: 4 / span 3;
+    grid-row: 3 / span 3;
+}
+
+#item06 {
+    grid-column: 7 / span 3;
+    grid-row: 4 / span 3;
+}
+
+#item07 {
+    grid-column: 1 / span 3;
+    grid-row: 7 / span 2;
+    border-radius: 5px 5px 5px 20px;
+}
+
+#item08 {
+    grid-column: 4 / span 3;
+    grid-row: 6 / span 3;
+}
+
+#item09 {
+    grid-column: 7 / span 3;
+    grid-row: 7 / span 2;
+    border-radius: 5px 5px 20px 5px;
+}
+
+.imgGaleria {
+    transition: 0.5s;
+}
+
+.imgGaleria:hover {
+    transform: scale(1.2);
+}
+
+
+/*===============================================================================================================*/
+
+#link-insta01 {
+    margin: 50px auto;
+    width: 135px;
+    display: block;
+    border: solid 1px #000000;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+#link-insta01:hover {
+    background: #d29d2b;
+    border: solid 1px #d29d2b;
+    transition: 0.4s;
+}
+
+#link-insta01>img {
+    position: relative;
+    padding-left: 10px;
+    top: 8px;
+}
+
+#link-insta01>p {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 5px;
+    margin: 11px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+
+/*PRINCIPAL -- PAGINA QUEM SOMOS*/
+
+.apresentacao {
+    text-align: center;
+    padding: 30px;
+}
+
+.apresentacao>h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #d29d2b;
+    text-shadow: 2px 2px 2px #FFE699;
+}
+
+#sobre {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin: auto;
+    width: 70%;
+}
+
+#link-loja {
+    margin: 50px auto;
+    width: 170px;
+    display: block;
+    border: solid 1px #000000;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+#link-loja:hover {
+    background: #d29d2b;
+    border: solid 1px #d29d2b;
+    transition: 0.4s;
+}
+
+#link-loja>img {
+    position: relative;
+    padding-left: 10px;
+    top: 8px;
+    width: 30px;
+}
+
+#link-loja>p {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 5px;
+    margin: 11px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+
+/*PRINCIPAL -- NOSSAS LOJAS*/
+
+.todas-lojas{
+    padding: 0px 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.loja{
+    display: inline-block;
+    font-size: 1rem;
+    width: 250px;
+    height: 320px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius:  15px;
+    margin: 20px 10px 0px;
+    overflow: hidden;
+    background-color: #FFE699;
+    padding: 30px;
+    box-shadow: 5px 7px#d29d2b;
+}
+
+.loja h2{
+    color: #d29d2b;
+    margin: 15px 0;
+}
+
+
+.container{
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    border: solid 2px #d29d2b;
+    border-radius:  0 15px  15px;
+}
+
+.container > img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    transform: scale(1.3);
+    transition: .8s;
+}
+
+.container > img:hover{
+ transform: scale(1);
+
+}
+
+
+/*PRINCIPAL -- FALE CONOSCO - FORMULÁRIO*/
+
+form{
+    background-color: rgba(210, 157, 43, 0.192);
+    display: block;
+    width: 450px;
+    margin: 0 auto 50px;
+    padding: 50px;
+    border: solid 5px #d29d2b;
+    border-radius: 15px;
+}
+
+h2 > p{
+    font-size: 1.1rem;
+}
+
+
+input, textarea{
+    background-color: beige;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: solid 2px  ;
+    border-radius: 15px;
+}
+
+input:focus{
+    background-color: #FFE699;
+}
+
+textarea:focus{
+    background-color: #FFE699;
+}
+
+::placeholder{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: #000000
+}
+
+#botao{
+    background-color: #FFE699;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    border: solid 2px #000000;
+    transition: 0.4s;
+}
+
+#botao:hover{
+    border: solid 2px #d29d2b;
+    background-color: #d29d2b;
+    transition: 0.4s;
+    cursor: pointer;
+}
